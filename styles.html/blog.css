@@ -15,6 +15,45 @@
     background-image: url(../assets/Hero-bg.png);
     
 }
+.support-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+   
+  
+}
+.support-content{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 185px;
+}
+.center-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+}
+.center-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color:rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
 .banner-descripton{
     color: rgba(13, 19, 33, 1);
      margin-top: 32px;
@@ -180,3 +219,4 @@ color: rgba(13, 19, 33, 1);
      padding-bottom: 60px;
      margin-bottom: 40px;
   }
+ 
