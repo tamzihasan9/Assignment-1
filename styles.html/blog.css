@@ -26,30 +26,48 @@
 }
 .support-content{
     background-image: url(../assets/handshake.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding:40px 40px;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 1140px;
     height: 185px;
 }
-.center-section input[type="text"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 10px;
-    width: 300px;
+.support-section h1{
+    color:white;
+    margin-bottom: 20px;
 }
-.center-section button {
-    padding: 10px 20px;
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.support-content input[type="text"] {
+    padding:19px 20px;
+    border: 1px solid #ccc;
+    border-radius:8px;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 550px;
+    height:57px ;
+    color: rgba(13, 19, 33, 0.4);
+    font-weight: 16px;
+    
+}
+.support-content button {
+    padding: 19px 20px;
     border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
-    color:rgba(13, 19, 33, 0.4);
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 1);
+   background-color:  rgba(255, 255, 255, 1)
+   
     font-size: 16px;
     cursor: pointer;
 }
@@ -100,12 +118,12 @@
 .sec-class {
     /* text-align: center;
  background-color: #f9f9f9;
-    padding: 100px; /* Example padding */
-    /* border: 1px solid #ddd; Example border */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Example shadow */
+    padding: 100px; /*  */
+    /* border: 1px solid #ddd;  */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
      */
      
-    padding:  10px 72px;
+    padding: 10px 72px;
     justify-content: center;
     align-items: center;
 
